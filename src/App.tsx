@@ -307,10 +307,12 @@ const About = () => {
 // --- Gallery Section ---
 const Gallery = () => {
   const images = [
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1453&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=1470&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1551076805-e1869043e560?q=80&w=1417&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1470&auto=format&fit=crop"
+    "https://centrodequiropraxiamt.com.br/wp-content/uploads/2022/10/Centro-de-Quiropraxia-4.jpg",
+    "https://centrodequiropraxiamt.com.br/wp-content/uploads/2022/10/Centro-de-Quiropraxia-2.jpg",
+    "https://centrodequiropraxiamt.com.br/wp-content/uploads/2022/10/Centro-de-Quiropraxia-3.jpg",
+    "https://centrodequiropraxiamt.com.br/wp-content/uploads/2022/10/Centro-de-Quiropraxia-1.jpg",
+    "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1470&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1453&auto=format&fit=crop"
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
